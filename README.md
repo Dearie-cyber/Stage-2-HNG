@@ -53,7 +53,7 @@
 
 ## Endpoint: /api/user_id
 
-## HTTP Method: PUT
+## HTTP Method: PATCH
 
 ## Request Format:
 
@@ -140,7 +140,7 @@ Host: your-api-url.com
 ### Request:
 
 ```json
-PUT /api/1 HTTP/1.1
+PATCH /api/1 HTTP/1.1
 Host: your-api-url.com
 Content-Type: application/json
 
@@ -179,7 +179,7 @@ Host: your-api-url.com
 
 - The API assumes that each person has a unique identifier (user_id) for read, update, and delete operations.
 
-- Error handling and validation of input data are simplified in this example.
+- Error handling and validation of inPATCH data are simplified in this example.
 
 - No authentication or authorization mechanisms are implemented in this version.
 
