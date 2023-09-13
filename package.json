@@ -2,7 +2,7 @@
   "name": "stage-2-backend",
   "version": "1.0.0",
   "description": "HNG-x stage two backend",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
