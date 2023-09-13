@@ -94,8 +94,8 @@
 ## Request:
 
 ```json
-POST /api HTTP/1.1
-Host: your-api-url.com
+POST 
+Host: https://stage-2-hng.vercel.app/api
 Content-Type: application/json
 
 {
@@ -120,8 +120,8 @@ Content-Type: application/json
 ## Request:
 
 ```json
-GET /api/1 HTTP/1.1
-Host: your-api-url.com
+GET 
+Host: https://stage-2-hng.vercel.app/api/user_id
 ```
 
 ## Response
@@ -140,8 +140,8 @@ Host: your-api-url.com
 ### Request:
 
 ```json
-PATCH /api/1 HTTP/1.1
-Host: your-api-url.com
+PATCH 
+Host: https://stage-2-hng.vercel.app/api/user_id
 Content-Type: application/json
 
 {
@@ -163,8 +163,8 @@ Content-Type: application/json
 ## Remove a Person
 ## Request:
 ```json
-DELETE /api/1 HTTP/1.1
-Host: your-api-url.com
+DELETE 
+Host: https://stage-2-hng.vercel.app/api/user_id
 ```
 
 ## Response:
@@ -188,7 +188,7 @@ Host: your-api-url.com
  ![uml diagram](uml.png)
 
 # Local Setup and Deployment
-
+ 
 ## To set up and deploy the API locally or on a server, follow these steps:
 
 ### Clone the repository from GitHub: git clone https://github.com/Dearie-cyber/Stage-2-HNG
@@ -203,4 +203,4 @@ Host: your-api-url.com
 
 ## `npm start`
 
-### Access the API at http://localhost:3000 (adjust the port as needed).
+### Access the API at https://stage-2-hng.vercel.app/api/
