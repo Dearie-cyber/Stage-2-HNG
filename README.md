@@ -183,6 +183,9 @@ Host: your-api-url.com
 
 - No authentication or authorization mechanisms are implemented in this version.
 
+# UML DIAGRAM
+ ![uml  diagram](uml.png)
+
 # Local Setup and Deployment
 
 ## To set up and deploy the API locally or on a server, follow these steps:

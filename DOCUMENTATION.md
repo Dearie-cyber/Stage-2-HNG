@@ -184,8 +184,8 @@ Host: your-api-url.com
 - No authentication or authorization mechanisms are implemented in this version.
 
 
-# UML OF THE API
- ![uml of diagram](uml.png)
+# UML DIAGRAM
+ ![uml diagram](uml.png)
 
 # Local Setup and Deployment
 
