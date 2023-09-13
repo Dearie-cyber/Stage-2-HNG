@@ -183,13 +183,17 @@ Host: your-api-url.com
 
 - No authentication or authorization mechanisms are implemented in this version.
 
+
+# UML OF THE API
+ ![uml of diagram](uml.png)
+
 # Local Setup and Deployment
 
 ## To set up and deploy the API locally or on a server, follow these steps:
 
-### Clone the repository from GitHub: git clone https://github.com/
+### Clone the repository from GitHub: git clone https://github.com/Dearie-cyber/Stage-2-HNG
 
-### Navigate to the project directory: cd your-repo
+### Navigate to the project directory: cd Stage-2-HNG
 
 ### Install dependencies:
 
